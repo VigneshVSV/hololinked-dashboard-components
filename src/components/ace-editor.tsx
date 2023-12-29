@@ -1,5 +1,4 @@
 // Internal & 3rd party functional libraries
-import React from "react";
 import { observer } from "mobx-react-lite";
 // Custom functional libraries
 // Internal & 3rd party component libraries
@@ -8,8 +7,8 @@ import "ace-builds/src-noconflict/mode-json";
 import "ace-builds/src-noconflict/theme-crimson_editor"
 import "ace-builds/src-noconflict/ext-language_tools";
 // Custom component libraries
-import { RenderEngineComponentProps } from "mobx-render-engine";
-import { GenericComponentProps } from "mobx-render-engine/state-container";
+import { RenderEngineComponentProps } from "@hololinked/mobx-render-engine";
+import { GenericComponentProps } from "@hololinked/mobx-render-engine/state-container";
 
 
 export const ContextfulAceEditor = observer(({state, renderer, logger} : RenderEngineComponentProps) => {

@@ -1,4 +1,4 @@
-import { RenderEngine } from "mobx-render-engine";
+import { RenderEngine } from "@hololinked/mobx-render-engine";
 import { ContextfulAceEditor } from "./components/ace-editor";
 import { ContextfulSSEVideo } from "./components/video";
 import { ContextfulPlotlyGraph } from "./components/plotly-graph";

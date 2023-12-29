@@ -1,11 +1,10 @@
 // Internal & 3rd party functional libraries
 import { observer } from "mobx-react-lite";
-import React from "react";
 // Custom functional libraries
 // Internal & 3rd party component libraries
 import Plot from "react-plotly.js";
 // Custom component libraries
-import { RenderEnginePlotlyProps } from "mobx-render-engine";
+import { RenderEnginePlotlyProps } from "@hololinked/mobx-render-engine";
 
 
 

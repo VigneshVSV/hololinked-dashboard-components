@@ -1,12 +1,11 @@
 // Internal & 3rd party functional libraries
-import React from 'react';
 import { observer } from 'mobx-react-lite';
 // custom functional libraries
-import { ComponentState } from 'mobx-render-engine/state-container';
+import { ComponentState } from '@hololinked/mobx-render-engine/state-container';
 // Internal & 3rd party component libraries
 import GridLayout, { Responsive, WidthProvider } from 'react-grid-layout';
 //custom component libraries
-import { RenderEngineComponentProps } from 'mobx-render-engine';
+import { RenderEngineComponentProps } from '@hololinked/mobx-render-engine';
 
 
 const ResponsiveGridLayout = WidthProvider(Responsive);

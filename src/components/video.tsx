@@ -1,13 +1,12 @@
 // Internal & 3rd party functional libraries
-import React from 'react'
 import { observer } from "mobx-react-lite"
 // Custom functional libraries
 // Internal & 3rd party component libraries
 import ReactPlayer from "react-player"
 // import { Player as VideoReact } from 'video-react'
 // Custom component libraries
-import { RenderEngineComponentProps } from "mobx-render-engine"
-import { GenericComponentProps } from "mobx-render-engine/state-container"
+import { RenderEngineComponentProps } from "@hololinked/mobx-render-engine"
+import { GenericComponentProps } from "@hololinked/mobx-render-engine/state-container"
 
 
 export const HLSVideo = observer(( {state, renderer, logger} : RenderEngineComponentProps ) => {
