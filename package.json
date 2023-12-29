@@ -1,5 +1,5 @@
 {
-  "name": "hololinked-dashboard-components",
+  "name": "@hololinked/hololinked-dashboard-components",
   "version": "0.1.0",
   "description": "aggregation of components (apart from React MUI) created in mobx-render-engine suitable for data-acquisition dashboards",
   "main": "index.js",
@@ -9,7 +9,8 @@
     "uninstall-node-modules": "rmdir node_modules /s /q",
     "clean": "rmdir dist /s /q",
     "build": "tsc && robocopy . .\\dist package.json README.md LICENSE",
-    "pack" : "cd dist && npm pack . && cd .."
+    "pack" : "cd dist && npm pack . && cd ..",
+    "publish": "cd dist && npm publish --access public && cd .."
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "keywords": [
     "mobx-render-engine",
-    "hololinked.webdashboard"
+    "hololinked.webdashboard",
+    "mobx",
+    "react"
   ],
   "author": "Vignesh Vaidyanathan",
   "license": "MIT",
@@ -36,7 +39,7 @@
     "ace-builds": "^1.32.2",
     "mobx": "^6.12.0",
     "mobx-react-lite": "^4.0.5",
-    "mobx-render-engine": "H:\\New Work\\mobx-render-engine\\dist\\mobx-render-engine-0.1.0.tgz",
+    "mobx-render-engine": "^0.0.1",
     "plotly.js": "^2.27.1",
     "react": "^18.2.0",
     "react-ace": "^10.1.0",
